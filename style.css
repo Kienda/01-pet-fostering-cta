@@ -28,12 +28,13 @@ img {
 /* Header styling */
 .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 18px 24px;
   background: linear-gradient(135deg, #0d3044 0%, #1d5a72 100%);
   color: var(--white);
+  text-align: center;
 }
 
 .brand {
@@ -49,6 +50,11 @@ img {
   margin: 0;
   font-size: 0.95rem;
   color: var(--soft-blue);
+}
+
+.site-header .brand,
+.site-header .tagline {
+  display: inline-block;
 }
 
 /* Hero banner and image overlay */
