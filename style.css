@@ -123,6 +123,38 @@ img {
   padding: 36px 18px 56px;
 }
 
+/* Footer styling */
+.site-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 32px 24px;
+  background: linear-gradient(135deg, #0d3044 0%, #12364f 100%);
+  color: var(--white);
+}
+
+.footer-column h2,
+.footer-column h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--soft-blue);
+}
+
+.footer-column p,
+.footer-column li {
+  color: #edf7fb;
+  font-size: 0.95rem;
+}
+
+.footer-column ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.footer-column li + li {
+  margin-top: 6px;
+}
+
 .info-card {
   background: var(--white);
   border-radius: 18px;
